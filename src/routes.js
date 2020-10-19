@@ -11,26 +11,26 @@ export default [
     ),
     private: false,
   },
-  {
-    name: 'Planning',
-    path: '/planning',
-    exact: true,
-    showInMenu: true,
-    component: lazy(() =>
-      import('./pages/Planning' /* webpackChunkName: "planning-page" */),
-    ),
-    private: true,
-  },
-  {
-    name: 'Expenses',
-    path: '/expenses',
-    exact: true,
-    showInMenu: true,
-    component: lazy(() =>
-      import('./pages/Expenses' /* webpackChunkName: "expenses-page" */),
-    ),
-    private: true,
-  },
+  // {
+  //   name: 'Planning',
+  //   path: '/planning',
+  //   exact: true,
+  //   showInMenu: true,
+  //   component: lazy(() =>
+  //     import('./pages/Planning' /* webpackChunkName: "planning-page" */),
+  //   ),
+  //   private: true,
+  // },
+  // {
+  //   name: 'Expenses',
+  //   path: '/expenses',
+  //   exact: true,
+  //   showInMenu: true,
+  //   component: lazy(() =>
+  //     import('./pages/Expenses' /* webpackChunkName: "expenses-page" */),
+  //   ),
+  //   private: true,
+  // },
   {
     name: 'Dinamics',
     path: '/dinamics',
